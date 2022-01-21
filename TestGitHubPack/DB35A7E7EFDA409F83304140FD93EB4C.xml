@@ -3,7 +3,7 @@
   <SpaPackageIdentity>
     <Id>DB35A7E7EFDA409F83304140FD93EB4C</Id>
     <Name>TestGitHubPack</Name>
-    <Version>1</Version>
+    <Version>2</Version>
   </SpaPackageIdentity>
   <Description />
   <CategoryIdentity>
@@ -11,7 +11,7 @@
     <AutomaticallyPopulate>true</AutomaticallyPopulate>
     <Name>Default Category</Name>
   </CategoryIdentity>
-  <LastModifiedDateTime>2022-01-21T19:00:52.417</LastModifiedDateTime>
+  <LastModifiedDateTime>2022-01-21T19:04:40.043</LastModifiedDateTime>
   <LastModifiedResource>
     <Id>23D4D5E9BA354BDABE0D45519C42B921</Id>
     <AutomaticallyPopulate>true</AutomaticallyPopulate>
@@ -29,6 +29,12 @@
         <Version>1</Version>
         <Name>TestBusProc</Name>
       </ProcessIdentity>
+      <ProcessIdentity>
+        <Id>C3D3B4B576D49BA58FEF06BF3AF63CD8</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>1</Version>
+        <Name>TestProcess1</Name>
+      </ProcessIdentity>
     </Processes>
     <ProcessExportOption>
       <ExportResources>false</ExportResources>
@@ -39,7 +45,7 @@
       <GeneralizedExport>false</GeneralizedExport>
       <ExportDotNetReferencesWithPath>true</ExportDotNetReferencesWithPath>
       <ExportCaseFragments>false</ExportCaseFragments>
-      <ExportTemplateSkins>true</ExportTemplateSkins>
+      <ExportTemplateSkins>false</ExportTemplateSkins>
       <ExportExtractionClassificationData>true</ExportExtractionClassificationData>
       <ExportGlobalDataModels>false</ExportGlobalDataModels>
       <ExportProcessDataModels>false</ExportProcessDataModels>
@@ -69,7 +75,7 @@
       <ExportReportingTags>false</ExportReportingTags>
       <ExportTestPlans>false</ExportTestPlans>
       <IncludeProcessAssociationsInPackage>false</IncludeProcessAssociationsInPackage>
-      <IsGitExport>true</IsGitExport>
+      <IsGitExport>false</IsGitExport>
     </ProcessExportOption>
     <WorkAllocationRules />
     <Skins />
@@ -207,6 +213,7 @@
       <Name />
       <Version>0</Version>
     </QuickApp>
+    <GitFolderName>TestGitHubPack</GitFolderName>
     <PackageItemAssociations>
       <PackageItemAssociation>
         <Id>C25EBB9C7DFF3A7F7D3DE73AABA3F8FC</Id>
@@ -230,6 +237,23 @@
         <Name />
         <ItemType>28</ItemType>
         <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>C3D3B4B576D49BA58FEF06BF3AF63CD8</Id>
+        <Name />
+        <ItemType>0</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+            <ItemType>28</ItemType>
+            <Name>Default Category</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>C3D3B4B576D49BA58FEF06BF3AF63CD8</Id>
+            <ItemType>0</ItemType>
+            <Name>TestProcess1</Name>
+          </AssociatedItem>
+        </AssociatedItems>
       </PackageItemAssociation>
     </PackageItemAssociations>
     <GlobalVariables />
